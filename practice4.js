@@ -25,3 +25,43 @@ for(let a=0;a<marks.length;a++){// arrays start at index 0, if started from 1 th
         console.log("fail")
     }
 }
+
+
+const accountId=24566;
+var accountEmail="abc@gmail.com";
+let accountPassword="12344";
+console.table([accountId,accountEmail,accountPassword]);
+console.log(accountEmail);
+
+/*
+prefer not to use var 
+because of issue in block scope and functional scope
+*/
+
+"use strict"; //treat all JS code as newer version using this
+let age=34;
+let name="riya";
+let isLoggedIn="true";
+let state; //undefined no value
+//number => 2 to the power 53
+//bigint
+//string=>""
+//boolean=> true/false
+//null=>standalone value
+//undefined
+//symbol=>unique
+//object
+
+console.log(typeof age);
+
+let score="33abc"
+console.log(typeof score);
+let valueInNumber=Number(score);
+console.log(valueInNumber);
+//type conversion
+ //"33"=>33
+ //"33abf"=>NaN
+ //True=>1;false=>0
+
+ // ""=>false
+ //"anything"=>true
