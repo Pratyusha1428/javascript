@@ -92,3 +92,17 @@ if(age3===18 && hasId===true ){
 }else{
     console.log("you cannot enter")
 };
+
+//************************************************Operations*******************************************
+let value=3
+let negValue=-value
+// console.log(negValue);
+
+let str1="sakshi"
+let str2="rai"
+console.log(str1 + str2)
+
+// console.log('1'+2);
+// console.log(1+"2");
+// console.log("1"+"2");
+// console.log(1+2+"2");
